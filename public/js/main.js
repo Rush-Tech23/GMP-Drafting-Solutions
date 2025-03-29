@@ -289,7 +289,7 @@ function sendWhatsAppMessage() {
                `You can reply to me at *${email}*. Looking forward to your response!%0A%0A` + 
                `Thanks & Best Regards,%0A${name}`;
 
-    var whatsappURL = `https://api.whatsapp.com/send?phone=8888596720&text=${text}`;
+    var whatsappURL = `https://api.whatsapp.com/send?phone=8805370755&text=${text}`;
     window.open(whatsappURL, "_blank");
 }
 
